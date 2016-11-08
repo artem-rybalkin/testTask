@@ -1,0 +1,55 @@
+.icon-menu {
+	display: none;
+	height: 40px;
+	background: #f0f1f6;
+	width: 320px;
+	@include respond-to (handhelds) {
+		display: block;
+	}
+}
+
+.sprite-icon {
+	width: 18px;
+	height: 17px;
+	background-image: url(../img/menu_sprite_320.png);
+	// background: red;
+	margin-top: 10px;
+	margin-left: 17px;
+}
+.icon-menu li {
+	width: 53.3px;
+	height: 40px;
+	list-style: none;
+	float: left;
+
+}
+.icon-menu a {
+	// line-height: 40px;
+	width: 50px;
+	height: 100%;
+	display: block;
+}
+.icon-menu li:hover {
+	background: #3eade2;
+}
+.icon-main .sprite-icon {
+	 background-position: 0px 0px;
+}
+.icon-home .sprite-icon {
+	background-position: -19px 0px;
+}
+.icon-search .sprite-icon {
+	background-position: -38px 0px;
+}
+.icon-basket .sprite-icon {
+		background-position: -57px 0px;
+}
+.icon-costs .sprite-icon {
+	background-position: -77px 0px;
+}
+.icon-phone .sprite-icon {
+	background-position: -96px 0px;
+}
+.active {
+	background: #3eade2;
+}
